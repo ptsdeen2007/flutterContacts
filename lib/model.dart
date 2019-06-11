@@ -20,7 +20,7 @@ class Contacts {
   });
 
   factory Contacts.fromMap(Map<String, dynamic> json) => new Contacts(
-    name: json["name"],
+    name: json["Name"],
     place: json["place"],
     path: json["path"],
   );
